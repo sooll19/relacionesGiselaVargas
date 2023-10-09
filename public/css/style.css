@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(/img/fondo.jpg);
+}
+.lista{
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+a {
+  color: rgb(14, 15, 15);
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+figure{
+  width: 20%;
+}
+.titulo{
+  text-align: center;
+}
+.botonAgregar , .botonModificar{
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonBorrar{
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+.botonVolver{
+  color: white;
+  background-color: #00B7FF;
+  padding: 10px;
+  border-radius: 10px;
+}
+.formulario{
+  margin: auto;
+  width: 50%;
+}
+
+.detail p {
+font-size: 20px;
+color: azure;
+}
+.formulario {
+  background-image: url(/img/símbolo-3d-de-las-películas.webp);
+background-size: contain;
+background-repeat: no-repeat;
+font-size: 20px;
+color: rgb(15, 38, 168)
+;
+}
+.formulario input,select {
+  background-color: rgb(76, 180, 145);
+  font-size: 20px;
+}
